@@ -39,25 +39,25 @@ function loadNews(requestedCategory){
   const datadiv = document.getElementById("datadiv");
   let result = "";
   
-  news_data.forEach(category => {
-    // if (!(category == requestedCategory || requestedCategory == "")) {
-    //   console.log(category == requestedCategory);
-    // }
+  news_data.forEach(cat => {
+    if (!(cat.category.toLowerCase() === requestedCategory || requestedCategory === "")) {
+      return;
+    }
 
-    result += "<h2 class=\"text-center\" style=\"padding: 20px;\>gg" + category.category + "</h2>"+
+    result += "<h2 class=\"text-center\" style=\"padding: 20px;\">" + cat.category + "</h2>"+
               "<div class=\"container\" style=\"padding-bottom: 50px;\">"+
                 "<div class=\"row row-cols-1 row-cols-md-2 g-4\">";
 
-    category.news.forEach(item => {
+    cat.news.forEach(item => {
       result += "<div class=\"col\">"+
                   "<div class=\"card\">"+
                     "<img src=\"" + item.image + "\" class=\"card-img-top\" alt=\"Image for " + item.title + "\">"+
                     "<div class=\"card-body\">"+
-                      "<h5 class=\"card-title\">" + item.title + "<span>" + item.id + "</span></h5>"+
+                      "<h5 class=\"card-title\">" + item.title + "<span style=\"float: right;\">" + item.id + "</span></h5>"+
                       "<p class=\"card-text\">" + item.text + "</p>"+
                     "</div>"+
                     "<div class=\"card-footer\">"+
-                      "<small class=\"text-muted\">" + item.author + "<span>" + item.date + "</span></small>"+
+                      "<small class=\"text-muted\">" + item.author + "<span style=\"float: right;\">" + item.date + "</span></small>"+
                     "</div>"+
                   "</div>"+
                 "</div>";

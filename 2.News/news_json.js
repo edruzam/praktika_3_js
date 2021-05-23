@@ -13,7 +13,7 @@ let news_json = `[
         "title": "Kimchi",
         "text": "This traditional South Korean dish will make you immortal!",
         "date": "May 2nd, 2021",
-        "author": "Kim CHen Yum",
+        "author": "Kim Chen Yum",
         "image": "https://www.maangchi.com/wp-content/uploads/2019/11/vegankimchi-insta.jpg"
       }
     ]
