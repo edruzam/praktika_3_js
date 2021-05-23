@@ -12,7 +12,6 @@ if (document.readyState === "complete" || (document.readyState !== "loading" && 
 }
 
 function setActiveMenuItem(requestedCategory){
-  let itemIds = ["allnewsmenuitem", "foodmenuitem", "sportmenuitem", "travelmenuitem", "itmenuitem"];
   let requestedItemId = "allnewsmenuitem";
   switch (requestedCategory){
     case "food": requestedItemId = "foodmenuitem"; break;
@@ -20,6 +19,17 @@ function setActiveMenuItem(requestedCategory){
     case "travel": requestedItemId = "travelmenuitem"; break;
     case "it": requestedItemId = "itmenuitem"; break;
     default: requestedItemId = "allnewsmenuitem"; break;
+  }
+  
+  let itemIds = ["foodmenuitem", "sportmenuitem", "travelmenuitem", "itmenuitem"];
+  
+  if (requestedItemId == "allnewsmenuitem") {
+    document.getElementById("allnewsmenuitem").classList.add("active");
+    document.getElementById("navbarDropdownMenuLink").classList.remove("active");
+  }
+  else {
+    document.getElementById("allnewsmenuitem").classList.remove("active");
+    document.getElementById("navbarDropdownMenuLink").classList.add("active");
   }
 
   itemIds.forEach(itemId => {
