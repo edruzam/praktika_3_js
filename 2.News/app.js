@@ -60,7 +60,7 @@ function loadNews(requestedCategory){
 
     cat.news.forEach(item => {
       result += "<div class=\"col\">"+
-                  "<div class=\"card\">"+
+                  "<div class=\"card h-100\">"+
                     "<img src=\"" + item.image + "\" class=\"card-img-top\" alt=\"Image for " + item.title + "\">"+
                     "<div class=\"card-body\">"+
                       "<h5 class=\"card-title\">" + item.title + "<span style=\"float: right;\">" + item.id + "</span></h5>"+
