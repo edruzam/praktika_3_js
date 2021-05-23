@@ -1,0 +1,84 @@
+body {font-family: Arial;}
+
+
+ h1 {
+    color: rgb(35, 12, 245);
+    text-shadow: 2px 2px 5px grey;
+    padding-top:20px;
+    font-size:24px;
+
+ }
+ h2 {
+    color: rgb(35, 12, 245);
+    padding-top:50px;
+ }
+ h3 {
+    color: rgb(35, 12, 245);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+ }
+
+/* style for table */
+ table {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+    /* min-width: 276px;
+    max-width: 512px; */
+  }
+
+td {
+    border-bottom: 1px solid rgb(144, 133, 241);
+    padding: 6px;
+}
+th {
+    border-bottom: 1px solid rgb(144, 133, 241);
+    padding: 6px;
+}
+
+tr {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #8496bbaf;
+}
+tr:hover {
+    background-color: rgb(144, 133, 241);
+}
+
+th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: rgb(35, 12, 245);
+    color: white;
+}
+
+img {
+    -webkit-filter: drop-shadow(5px 5px 5px #666666);
+    filter: drop-shadow(5px 5px 5px #666666);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-width: 1px;
+    border-style:solid
+} 
+button {
+    -webkit-filter: drop-shadow(5px 5px 5px #666666);
+    filter: drop-shadow(5px 5px 5px #666666);
+    background-color: rgb(35, 12, 245); /* Blue */
+    border: none;
+    color: white;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/* .card {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-right: 20px;
+    style="max-width:16em;"
+} */
