@@ -14,7 +14,7 @@ let news_json = `[
         "text": "This traditional South Korean dish will make you immortal!",
         "date": "May 2nd, 2021",
         "author": "Kim Chen Yum",
-        "image": "https://www.maangchi.com/wp-content/uploads/2019/11/vegankimchi-insta.jpg"
+        "image": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/kimchi_69909_16x9.jpg"
       }
     ]
   },
@@ -33,7 +33,7 @@ let news_json = `[
         "text": "Overweight pets can become very lazy and will not run or jump with you every day. Sad.",
         "date": "March 14th, 2021",
         "author": "Jennifer Lopez",
-        "image": "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/480xAny/5/1/1/123511_fat-dog-250_tcm18-74998.jpg"
+        "image": "https://s.abcnews.com/images/Health/GTY_fat_dog_nt_131107_16x9_992.jpg"
       }
     ]
   },
@@ -52,7 +52,7 @@ let news_json = `[
         "text": "Everyone knows Bali. But is it an island in Thailand or a city on Crete? It's both.",
         "date": "December 21st, 2020",
         "author": "Tom Cruise",
-        "image": "https://pix6.agoda.net/hotelImages/4869553/0/35b103e869655a2959fac36f614fa08e.jpg?s=1024x768"
+        "image": "https://www.fitbodytravel.com/wp-content/uploads/bali-fitness-tour-01.jpg"
       }
     ]
   },
@@ -64,7 +64,7 @@ let news_json = `[
          "text": "... a baby helicopter)))",
          "date": "March 3rd, 2021",
          "author": "Elon Musk",
-         "image": "https://imgaz2.staticbg.com/thumb/large/oaupload/banggood/images/89/95/d865626b-f98f-45c2-a32d-2592eecddba9.jpg.webp"
+         "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6422/6422731_sd.jpg"
       },
       { "id": 2,
         "title": "Playng Counter Strike on a toaster?",
